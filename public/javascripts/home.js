@@ -5,14 +5,17 @@ var encourage_msgs = [
     "You always have $GME to fall back on.",
     "Never underestimate the power of lexicography.",
     "Probably works every time!",
+    "Stick it to the black box that is romance!",
+    "Romantic, right?",
+    "You miss 100% of the shots you don't overthink first."
 ];
 
 var placeholders = [
     "It's not you, it's my abhorrent image of you...",
-    "I love hanging out with you bud!...",
-    "Wanna come over? We're playing Monopoly...",
+    "I love hanging out with you! You're epic...",
+    "Wanna come over? We're playing Monopoly, it'll be fun...",
     "We should just be friends... please...",
-    "Stop coming to my house you devlish dunce...",
+    "Stop coming to my house you devilish dunce...",
     "Hahaha you're so funny... and diplomatic..."
 ];
 
@@ -40,11 +43,12 @@ var good_outro_msgs = [
 var bad_outro_msgs = [
     "Better luck next time.",
     "Hey, there's plenty of fish in the street car.",
-    "For all we know it's wrong. But probably not.",
+    "For all we know it's wrong. But it's probably not.",
     "Oh well...",
     "Jenga! ",
     "Ah crud.",
-    "I mean, you saw it coming right?"
+    "I mean, you saw it coming right?",
+    "Ouch."
 ];
 
 function pick_random(lst) {
@@ -128,7 +132,6 @@ window.onload = function() {
 
             let results_div = document.getElementById('results-div');
             results_div.style.visibility = 'visible';
-
 
         });
 

@@ -1,0 +1,61 @@
+body {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+}
+
+h2, h3, h4, p {
+    color: white;
+}
+
+textarea {
+    width: 50%;
+    height: 120px;
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+#check-button {
+    margin-top: 20px;
+}
+
+.center-div {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#encourage-msg {
+    font-style: italic;
+}
+
+#buzz-words {
+    margin-top: 30px;
+}
+
+#outro-msg, #intro-msg {
+    color: lightgray;
+    font-style: italic;
+}
+
+#try-again {
+    margin-top: 50px;
+}
+
+#result {
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+    width: 70%;
+    left: 15%;
+    padding: 10px;
+}
